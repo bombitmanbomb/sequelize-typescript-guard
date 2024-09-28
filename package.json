@@ -1,0 +1,41 @@
+{
+  "name": "sequelize-typescript-guard",
+  "version": "0.1.0",
+  "description": "An Authorization Library for Sequelize",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bombitmanbomb/sequelize-typescript-guard.git"
+  },
+  "keywords": [
+    "sequelize-guard",
+    "sequelize",
+    "authorize",
+    "role",
+    "permission",
+    "acl",
+    "sequelize-acl",
+    "authorization",
+    "guard"
+  ],
+  "author": "Ethan Snow <bombitmanbomb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bombitmanbomb/sequelize-typescript-guard/issues"
+  },
+  "homepage": "https://github.com/bombitmanbomb/sequelize-typescript-guard#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.3",
+    "sequelize-typescript": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "eslint": "^9.11.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  }
+}
